@@ -3,6 +3,9 @@
     <h1 v-if="this.$root.$data.roster.length != 5">Add {{this.needed}} robots to your roster</h1>
     <h1 v-else>Your roster is complete!</h1>
     <PersonsCom :persons="persons"/>
+    <footer>
+      <a href="https://github.com/BrendanIzu/RoboRoster.git">github link</a>
+    </footer>
   </div>
 </template>
 
